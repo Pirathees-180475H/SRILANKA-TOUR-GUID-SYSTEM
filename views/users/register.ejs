@@ -1,0 +1,49 @@
+<% layout('layout/boilerplate') %> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/register" method="POST" class="validated-form" novalidate>
+        <div class="mb-3">
+            <label class="form-label"for="username">UserName</label>
+            <input class="form-control" id="username" type="text" name="username" placeholder="userName Plz"  required>
+            <div class="valid-feedback">
+                Looks Good!
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label"for="email">Email</label>
+            <input class="form-control" id="email" type="email" name="email" placeholder="Email Plz"  required>
+            <div class="valid-feedback">
+                Looks Good!
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label"for="role">Role</label>
+            <input class="form-control" id="role" type="text" name="role" placeholder="Role Plz"  required>
+            <div class="valid-feedback">
+                Looks Good!
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label"for="password">PassWord</label>
+            <input class="form-control" id="password" type="password" name="password" placeholder="PassWord Plz"  required>
+            <div class="valid-feedback">
+                Looks Good!
+            </div>
+        </div>
+        <button class="btn btn-success">JOIN</button>
+    </form>
+</body>
+</html>

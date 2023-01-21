@@ -3,7 +3,7 @@
 This web application, Guides tourists to find the best tourist places in Sri Lanka.
 
 ## Tools 
-1. JS
+1. JS , CSS
 2. Node
 3. Express
 4. MongoDB with Mongoose
